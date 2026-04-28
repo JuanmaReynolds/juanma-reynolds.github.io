@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juanma Reynolds — Ghostwriter & Estratega de Contenido</title>
+  <meta name="description"
+    content="Ghostwriter y estratega de contenido para marcas personales. Guiones, estrategia, edición y publicación. Basado en Buenos Aires.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <link rel="stylesheet" href="./assets/styles/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-close" onclick="toggleMenu()">✕</button>
+      <a href="#inicio" onclick="toggleMenu()">Inicio</a>
+      <a href="#sobre-mi" onclick="toggleMenu()">Sobre Mí</a>
+      <a href="#servicio" onclick="toggleMenu()">Mis Servicios</a>
+      <a href="#proyectos" onclick="toggleMenu()">Proyectos</a>
+      <a href="#agendar" onclick="toggleMenu()" class="m-cta">Charlemos</a>
+    </div>
+
+    <!-- NAV -->
+    <nav id="nav">
+      <div class="nav-inner">
+        <a href="#" class="logo">Juanma <b>Reynolds</b></a>
+        <div class="nav-links">
+          <a href="#inicio" class="nav-link">Inicio</a>
+          <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+          <a href="#servicio" class="nav-link">Mis Servicios</a>
+          <a href="#proyectos" class="nav-link">Proyectos</a>
+          <a href="#agendar" class="nav-cta">Charlemos</a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+      </div>
+    </nav>
+
+    <!-- MARQUEE -->
+    <div class="mq-wrap">
+      <div class="mq-track">
+        <span class="mq-item">Marketing Digital <span class="mq-dot"></span></span>
+        <span class="mq-item">Marcas Personales <span class="mq-dot"></span></span>
+        <span class="mq-item">Estrategia de Contenido <span class="mq-dot"></span></span>
+        <span class="mq-item">Ghostwriting <span class="mq-dot"></span></span>
+        <span class="mq-item">Content Marketing <span class="mq-dot"></span></span>
+        <span class="mq-item">Meta Ads <span class="mq-dot"></span></span>
+        <span class="mq-item">Email Marketing <span class="mq-dot"></span></span>
+        <span class="mq-item">Leads Generation <span class="mq-dot"></span></span>
+        <span class="mq-item">Marketing Digital <span class="mq-dot"></span></span>
+        <span class="mq-item">Marcas Personales <span class="mq-dot"></span></span>
+        <span class="mq-item">Estrategia de Contenido <span class="mq-dot"></span></span>
+        <span class="mq-item">Ghostwriting <span class="mq-dot"></span></span>
+        <span class="mq-item">Content Marketing <span class="mq-dot"></span></span>
+        <span class="mq-item">Meta Ads <span class="mq-dot"></span></span>
+        <span class="mq-item">Email Marketing <span class="mq-dot"></span></span>
+        <span class="mq-item">Leads Generation <span class="mq-dot"></span></span>
+      </div>
+    </div>
+
+    <!-- ============================
+     HERO
+============================ -->
+    <section class="hero" id="inicio">
+      <!-- <div class="hero-deco-v v1"></div>
+      <div class="hero-deco-v v2"></div>
+      <div class="hero-bg-glow"></div>
+      <div class="hero-bg-letters">JR</div> -->
+      <div class="hero-inner">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-eyebrow r">
+              <div class="eyebrow-bar"></div>
+              <span class="label">Content & Digital Marketing Expert</span>
+            </div>
+            <h1 class="hero-name r d1">JUANMA <span class="accent">REYNOLDS</span></h1>
+            <p class="hero-tagline r d2">Convierto tu identidad en tu ventaja competitiva.</p>
+            <p class="hero-desc r d3" style="text-align: justify;">
+              Deja de intentar encajar y seguir tendencias. Sonar como el resto de tus competidores esta matando tu
+              negocio.
+              Mi trabajo es unir quien sos con tu negocio y así crear una marca personal única e irrepetible para que tu
+              nombre sea el activo más rentable de tu empresa.
+            </p>
+            <div class="hero-btns r d4">
+              <a href="https://wa.me/541136189791" target="_blank" class="btn btn-red">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                </svg>
+                WhatsApp
+              </a>
+              <a href="#proyectos" class="btn btn-outline">Ver Proyectos</a>
+              <a href="#agendar" class="btn btn-outline">Agendar Llamada</a>
+            </div>
+            <div class="hero-stats r d5">
+              <div class="stat">
+                <div class="stat-n"><em>+</em>½ DÉCADA</div>
+                <div class="stat-l">Dominando el juego digital.</div>
+              </div>
+              <div class="stat">
+                <div class="stat-n"><em>+</em>10K</div>
+                <div class="stat-l">Oportunidades de venta creadas.</div>
+              </div>
+              <div class="stat">
+                <div class="stat-n"><em>-</em>0 FRICCION</div>
+                <div class="stat-l">Sistema de contenido delegado.</div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-photo-wrap r d2">
+            <div class="hero-photo-frame">
+              <img src="./assets/images/juanma-copia.png" alt="Juanma Reynolds" class="hero-photo">
+              <div class="photo-badge">
+                <div class="avail"><span class="avail-dot"></span><span>Disponible · Buenos Aires</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Empresas -->
+
+    <section class="empresas">
+      <div class="emp-mq-wrap">
+        <div class="emp-mq-track">
+          <!-- Bloque 1 -->
+          <span class="emp-item">
+            <img src="./assets/logos/bureauveritas.png" alt="Bureau Veritas" class="emp-logo">
+            <span>Bureau Veritas</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/c6bank.png" alt="c6bank" class="emp-logo">
+            <span>c6bank</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/ikea.png" alt="IKEA" class="emp-logo">
+            <span>IKEA</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/bbva.png" alt="BBVA" class="emp-logo">
+            <span>BBVA</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/toyota.png" alt="Toyota" class="emp-logo">
+            <span>Toyota</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/aeromexico.png" alt="Aeroméxico" class="emp-logo">
+            <span>Aeroméxico</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/vodafone.png" alt="Vodafone" class="emp-logo">
+            <span>Vodafone</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/totalenergies.png" alt="TotalEnergies" class="emp-logo">
+            <span>TotalEnergies</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/enel.png" alt="Enel Green Power" class="emp-logo">
+            <span>Enel Green Power</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/iberdrola.png" alt="Iberdrola" class="emp-logo">
+            <span>Iberdrola</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/equinor.png" alt="Equinor" class="emp-logo">
+            <span>Equinor</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/naturgy.png" alt="Naturgy" class="emp-logo">
+            <span>Naturgy</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/engie.png" alt="Engie" class="emp-logo">
+            <span>Engie</span>
+          </span>
+          <span class="emp-dot"></span>
+          <!-- Bloque 2 — copia exacta para loop continuo -->
+          <span class="emp-item">
+            <img src="./assets/logos/bureauveritas.png" alt="Bureau Veritas" class="emp-logo">
+            <span>Bureau Veritas</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/c6bank.png" alt="c6bank" class="emp-logo">
+            <span>c6bank</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/ikea.png" alt="IKEA" class="emp-logo">
+            <span>IKEA</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/bbva.png" alt="BBVA" class="emp-logo">
+            <span>BBVA</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/toyota.png" alt="Toyota" class="emp-logo">
+            <span>Toyota</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/aeromexico.png" alt="Aeroméxico" class="emp-logo">
+            <span>Aeroméxico</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/vodafone.png" alt="Vodafone" class="emp-logo">
+            <span>Vodafone</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/totalenergies.png" alt="TotalEnergies" class="emp-logo">
+            <span>TotalEnergies</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/enel.png" alt="Enel Green Power" class="emp-logo">
+            <span>Enel Green Power</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/iberdrola.png" alt="Iberdrola" class="emp-logo">
+            <span>Iberdrola</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/equinor.png" alt="Equinor" class="emp-logo">
+            <span>Equinor</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/naturgy.png" alt="Naturgy" class="emp-logo">
+            <span>Naturgy</span>
+          </span>
+          <span class="emp-dot"></span>
+          <span class="emp-item">
+            <img src="./assets/logos/engie.png" alt="Engie" class="emp-logo">
+            <span>Engie</span>
+          </span>
+          <span class="emp-dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     SOBRE MÍ
+============================ -->
+    <section id="sobre-mi">
+      <div class="c">
+        <div class="sh r">
+          <span class="label">01 — Sobre Mí</span>
+          <h2>De estar mudo en las reuniones a <br>desarrollar cuentas de 0 a 50k por mes.</h2>
+        </div>
+        <div class="sobre-grid">
+          <!-- Columna 1 -->
+          <div class="sobre-left r">
+            <p style="text-align: justify;">
+              En <b>2022</b> comencé a trabajar en una agencia de tecnología y marketing a la que le tengo mucho cariño.
+              Arranque sin entender prácticamente nada.
+              Procesos, estrategia, comunicación… en las reuniones sentía que se hablaba otro idioma.
+            </p>
+            <p style="text-align: justify;">
+              Pero en lugar de frenarme, eso me empujó a hacerme una pregunta que cambió todo:
+              <b>¿Cómo puedo aportar valor a esta empresa?</b>
+            </p>
+            <p style="text-align: justify;">
+              <b>A partir de ahí, me obsesioné con aprender todo.</b>
+            </p>
+            <p style="text-align: justify;">
+              Me metí en cada proceso, aprendí cómo fluye el dinero, qué decisiones generan resultados y dónde están los
+              cuellos de botella. <b>No solo ejecutaba tareas, entendía su por que. </b>
+            </p>
+            <p style="text-align: justify;">
+              Con el tiempo, esa forma de trabajar empezó a notarse.
+              Fui asumiendo más responsabilidad hasta convertirme en <b>Sr. Media Buyer</b>, liderando un equipo con el
+              que
+              gestionábamos el tráfico completo de la empresa.
+            </p>
+          </div>
+          <!-- Columna 2 -->
+          <div class="sobre-left r">
+            <p style="text-align: justify;">
+              Trabajé en campañas <b>CPL de email</b> marketing a gran escala, en múltiples verticales y geografías,
+              manejando
+              presupuestos altos y generando miles de leads calificados para marcas como:
+            </p>
+            <div class="brands-row r d1">
+              <span class="brand-chip">Bureau Veritas</span>
+              <!-- <span class="brand-chip">Veritas</span> -->
+              <span class="brand-chip">Vodafone</span>
+              <span class="brand-chip">Toyota</span>
+              <span class="brand-chip">Claro</span>
+              <span class="brand-chip">AeroMéxico</span>
+              <span class="brand-chip">Engie</span>
+              <span class="brand-chip">Iberdrola</span>
+              <span class="brand-chip">BBVA</span>
+            </div>
+            <br>
+            <p style="text-align: justify;">
+              También desarrollé cuentas desde cero que superaron los <b>50K mensuales</b>.
+              Pero lo más importante no fueron los números.
+            </p>
+            <p style="text-align: justify;">
+              Fue entender cómo piensa un negocio de verdad:
+              <b>¿Qué le duele?</b>
+              <b>¿Qué lo hace crecer?</b>
+              <b>¿Qué necesita?</b>
+            </p>
+            <p style="text-align: justify;">
+              Hoy aplico todo ese aprendizaje en un terreno distinto:
+              <b>marcas personales que quieren vender mas con contenido orgánico.</b>
+            </p>
+          </div>
+          <!-- Columna 3 -->
+          <div class="sobre-left r">
+            <p style="text-align: justify;">
+              Lo que hago es:
+            </p>
+            <p><span class="serv-panel-icon">✦</span> Unir la personalidad del emprendedor con su negocio</p>
+            <p><span class="serv-panel-icon">✦</span> Convertir sus ideas en mensajes que capten la atención</p>
+            <p><span class="serv-panel-icon">✦</span> Bajar estrategia a sistemas que sean fáciles de ejecutar</p>
+            <p><span class="serv-panel-icon">✦</span> Y guiarlo para alcanzar sus objetivos (leads, ventas,
+              posicionamiento)</p>
+          </div>
+          <div class="sobre-left r">
+            <p style="text-align: justify;">
+              Si estás buscando solo ideas o alguien que <b>‘te lleve las redes’</b>, no soy esa persona.
+            </p>
+            <p style="text-align: justify;">
+              Trabajo con quienes entienden que el contenido es un activo importante del negocio, no solo
+              entretenimiento.
+            </p>
+            <p style="text-align: justify;">
+              Si estás en ese punto, probablemente podamos construir algo increíble juntos.
+            </p>
+          </div>
+          <!-- Fin Columnas -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     SERVICIO
+============================ -->
+    <section id="servicio">
+      <div class="c">
+        <div class="serv-intro">
+          <div class="sh r">
+            <span class="label">02 — Mis servicios</span>
+            <h2>Vos grabás. Yo hago el resto.</h2>
+            <p style="text-align: justify;">
+              El objetivo no es que publiques más. Es que tengas un sistema de contenido que trabaje para tu negocio
+              todos los meses — sin depender de tu tiempo, tu energía o tu estado de ánimo.
+            </p>
+          </div>
+          <div class="results-bar r">
+            <div class="results-bar-quote" style="text-align: justify;">
+              "Construimos un activo que trabaja mientras dormís. En 30 días recuperas tu tiempo; en 6 meses consolidas
+              una autoridad que convierte seguidores en clientes de alto valor. Todo, bajo un sistema de fricción cero."
+            </div>
+            <br>
+            <div class="results-nums">
+              <div class="rn">
+                <div class="rn-n">30 DÍAS</div>
+                <div class="rn-l">Libertad Total</div>
+              </div>
+              <div class="rn">
+                <div class="rn-n">+90 DÍAS</div>
+                <div class="rn-l">Autoridad de Nicho</div>
+              </div>
+              <div class="rn">
+                <div class="rn-n">ROI</div>
+                <div class="rn-l">Crecimiento Exponencial</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="serv-tabs">
+          <div class="serv-tab-list">
+            <button class="serv-tab-btn active" data-tab="0">
+              <span class="serv-tab-num">01</span>
+              <span class="serv-tab-name">Estrategia & Dirección</span>
+            </button>
+            <button class="serv-tab-btn" data-tab="1">
+              <span class="serv-tab-num">02</span>
+              <span class="serv-tab-name">Escritura & Guiones</span>
+            </button>
+            <button class="serv-tab-btn" data-tab="2">
+              <span class="serv-tab-num">03</span>
+              <span class="serv-tab-name">Edición de Video</span>
+            </button>
+            <button class="serv-tab-btn" data-tab="3">
+              <span class="serv-tab-num">04</span>
+              <span class="serv-tab-name">Campañas de Meta Ads</span>
+            </button>
+          </div>
+          <div class="serv-tab-content">
+            <div class="serv-tab-panel active" data-panel="0">
+              <h3><span class="serv-panel-icon">✦</span> Estrategia & Dirección</h3>
+              <p>
+                Asesoría de marca y creación de estrategia de contenido. Definición de pilares de contenido, tono de
+                marca, ángulos y objetivos. Un mapa, una guía para saber donde estas, a donde queres llegar y como vas a
+                hacerlo.
+              </p>
+              <!-- <ul class="serv-panel-list">
+                <li>Definición de pilares de contenido</li>
+                <li>Tono de marca y voz documentados</li>
+                <li>Ángulos y objetivos por plataforma</li>
+                <li>Calendario editorial mensual</li>
+              </ul> -->
+            </div>
+            <div class="serv-tab-panel" data-panel="1">
+              <h3><span class="serv-panel-icon">✦</span> Escritura de Guiones</h3>
+              <p>
+                Hooks que retienen, estructuras que convierten, textos que suenan a vos. No un guion hecho con IA, ni
+                contenido genérico. Cada guion es específico para tu voz y tu negocio. Incluye guía visual, de edición y
+                copy listo para la descripción
+              </p>
+              <!-- <ul class="serv-panel-list">
+                <li>Guiones para video corto y largo</li>
+                <li>Hooks optimizados por formato</li>
+                <li>Copies para captions y bio</li>
+                <li>Revisiones incluidas</li>
+              </ul> -->
+            </div>
+            <div class="serv-tab-panel" data-panel="2">
+              <h3><span class="serv-panel-icon">✦</span> Edición de Video</h3>
+              <p>
+                Subtítulos dinámicos, cortes de ritmo, música, audio y formato. El video llega listo para publicar. Vos
+                solo grabás el raw y mandás el archivo — yo hago que quede bien.
+              </p>
+              <!-- <ul class="serv-panel-list">
+                <li>Corte y ritmo adaptado al formato</li>
+                <li>Subtítulos dinámicos incluidos</li>
+                <li>Color grade y ajuste de audio</li>
+                <li>Exportación lista para cada red</li>
+              </ul> -->
+            </div>
+            <div class="serv-tab-panel" data-panel="3">
+              <h3><span class="serv-panel-icon">✦</span> Campañas de Meta Ads</h3>
+              <p>
+                Cuando el plan lo contempla, también armo y ejecuto campañas en Meta Ads para amplificar lo que ya
+                funciona orgánicamente y crecer mucho más rápido.
+              </p>
+              <!-- <ul class="serv-panel-list">
+                <li>Publicación automática programada</li>
+                <li>Gestión de calendario mensual</li>
+                <li>Campañas en Meta Ads</li>
+                <li>Reporte de resultados mensual</li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="results-bar r">
+          <div class="results-bar-quote">"En menos de un mes notás más retención e interacción. En 3 a 6 meses tenés más
+            leads calificados, más conversaciones abiertas con potenciales clientes y un perfil que vende — sin que
+            tengas que pensar en eso cada semana."</div>
+          <div class="results-nums">
+            <div class="rn">
+              <div class="rn-n">&lt;1m</div>
+              <div class="rn-l">Más retención<br>e interacción</div>
+            </div>
+            <div class="rn">
+              <div class="rn-n">3–6m</div>
+              <div class="rn-l">Más leads<br>calificados</div>
+            </div>
+            <div class="rn">
+              <div class="rn-n">+∞</div>
+              <div class="rn-l">Ventas &<br>conversaciones</div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ============================
+     PROCESO
+============================ -->
+    <section id="proceso">
+      <div class="c">
+        <div class="sh r">
+          <span class="label">03 — Mi Sistema</span>
+          <div class="mitad">
+            <h2>Mi sistema en 3 etapas</h2>
+            <p style="text-align: justify;">
+              Diseñado para que el cliente ponga el mínimo posible de su tiempo y obtenga el máximo resultado. Sin
+              reuniones innecesarias, sin tareas inesperadas, sin mensajes constantes.
+              De <b>2 a 3 horas por semana</b> es todo lo que necesito de vos y lo único que vas a tener que hacer es
+              grabarte.
+              El resto lo manejo yo: <b>estrategia, guiones, edición, calendarización y publicación.</b>
+            </p>
+          </div>
+          <div class="mitad">
+            <div class="proceso-time-box r d1">
+              <span class="time-highlight">2–3 hs Por semana</span>
+              <h3>Es todo lo que necesitás poner de tu parte</h3>
+              <div class="results-bar-quote" style="text-align: justify;">
+                Grabas, mandas el archivo. <b>Yo hago el resto</b> — sin que tengas que pensar en qué publicar, cómo
+                editarlo o
+                cuándo subirlo.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proceso-grid">
+          <div class="ps r">
+            <div class="ps-bar"></div>
+            <div class="ps-n">01</div>
+            <span class="ps-tag">Semana 1</span>
+            <h3>Estrategia & Alineación</h3>
+            <p style="text-align: justify;">
+              Entrevista profunda de personalidad para entender quien sos, cómo hablás, qué ofrecés y qué querés lograr.
+              Definimos tono, pilares de contenido y objetivos concretos. Todo documentado para optimizar procesos.
+            </p>
+          </div>
+          <div class="ps r d1">
+            <div class="ps-bar"></div>
+            <div class="ps-n">02</div>
+            <span class="ps-tag">Mensual</span>
+            <h3>Ejecución & Producción</h3>
+            <p style="text-align: justify;">
+              Guiones semanales listos para grabar, con estructura completa, dirección visual y texto superpuesto. Todos
+              escritos como si fueras vos. Solo te grabás y mandás el archivo. Yo edito, calendarizo y publico,
+              consistentemente todas las semanas.
+            </p>
+          </div>
+          <div class="ps r d2">
+            <div class="ps-bar"></div>
+            <div class="ps-n">03</div>
+            <span class="ps-tag">Continuo</span>
+            <h3>Revisión & Optimización</h3>
+            <p style="text-align: justify;">
+              Llamadas semanales de feedback, ajustes según lo que funciona y reporte mensual. El sistema no es estático
+              — se afina con el tiempo y cada mes el contenido es mejor que el anterior.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     PROYECTOS
+============================ -->
+    <section id="proyectos">
+      <div class="c">
+        <div class="sh r">
+          <span class="label">04 — Proyectos</span>
+          <h2>PORTFOLIO</h2>
+          <p style="text-align: justify;">
+            Acá podés ver exactamente qué hice, cómo lo hice y por que lo hice.
+          </p>
+        </div>
+
+        <!-- P1: JUAN GUARDY -->
+        <div class="project open r">
+          <div class="project-head" onclick="toggleProject(this)">
+            <div class="p-idx">01</div>
+            <div>
+              <div class="p-title">Juan Guardy Pádel</div>
+              <div class="p-sub">Marca Personal · Asesoría de Contenido</div>
+            </div>
+            <div class="p-right">
+              <div class="p-tags"><span class="tag-red">Asesoría en Video</span><span class="tag-muted">Marca
+                  Personal</span><span class="tag-muted">Estrategia</span></div>
+              <div class="expand-btn">+</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="pb-inner">
+              <div>
+                <p class="pb-desc">Asesoría de contenido para una marca personal en el mundo del pádel. Trabajamos
+                  posicionamiento, voz de marca, estructura de contenido y estrategia para construir autoridad en el
+                  nicho deportivo y convertir la audiencia en clientes o seguidores comprometidos.</p>
+              </div>
+              <div class="pb-deliv">
+                <h4>Qué se trabajó</h4>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Diagnóstico de posicionamiento actual y brechas de comunicación</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Definición de voz, tono y pilares de contenido personalizados</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Estructura de contenido para Instagram con formatos y frecuencia sugerida</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Estrategia para monetizar la audiencia desde el contenido orgánico</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Feedback directo sobre contenido existente y plan de mejora</p>
+                </div>
+              </div>
+              <div class="work-preview">
+                <h4>Grabación real de la sesión — Sección de estrategia</h4>
+                <div class="doc-win">
+                  <div class="doc-win-bar">
+                    <div class="win-dot wd-r"></div>
+                    <div class="win-dot wd-y"></div>
+                    <div class="win-dot wd-g"></div>
+                    <span class="win-title">Asesoría Juan Guardy · Grabación real · Preview desde min 6:00</span>
+                  </div>
+                  <div class="vid-wrap">
+                    <video controls preload="metadata" src="./assets/video/descarga.mp4"></video>
+                  </div>
+                </div>
+                <div class="vid-note">
+                  <p><b>Preview de 90 segundos</b> desde la parte central de la sesión — donde se trabaja la estrategia
+                    de contenido. La asesoría completa dura ~20 minutos y está disponible a pedido.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- P2: NATURVES -->
+        <div class="project r">
+          <div class="project-head" onclick="toggleProject(this)">
+            <div class="p-idx">02</div>
+            <div>
+              <div class="p-title">Naturves</div>
+              <div class="p-sub">Empresa de Paisajismo · Asturias, España</div>
+            </div>
+            <div class="p-right">
+              <div class="p-tags"><span class="tag-red">Guiones de Servicio</span><span class="tag-muted">Talking
+                  Head</span><span class="tag-muted">B-Roll</span></div>
+              <div class="expand-btn">+</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="pb-inner">
+              <div>
+                <p class="pb-desc">Naturves tiene más de 10 años y 1200 proyectos de experiencia — pero nunca habían
+                  llevado eso a un formato de video. El trabajo fue desarrollar 6 guiones completos para <strong
+                    style="color:var(--cream);opacity:1">presentar sus servicios en redes sociales</strong>: Paisajismo,
+                  Desbroce con Robot, Cierres, Talas y Podas, Mobiliario y FAQs. Cada guion está diseñado para capturar
+                  atención, generar confianza y convertir esa atención en consultas reales.</p>
+              </div>
+              <div class="pb-deliv">
+                <h4>Entregables</h4>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>6 guiones para presentar servicios con estructura hook→contexto→desarrollo→autoridad→CTA</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Dirección visual completa: planos a cámara + B-roll específico por sección</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Texto superpuesto en pantalla y duración estimada por parte del guion</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>CTAs con lógica de interacción y automatización vía Manychat</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Notas de producción para cada guion con referencias y alternativas</p>
+                </div>
+              </div>
+              <div class="work-preview">
+                <h4>Guion completo — #1: Servicio Paisajismo (91 seg)</h4>
+                <div class="doc-win">
+                  <div class="doc-win-bar">
+                    <div class="win-dot wd-r"></div>
+                    <div class="win-dot wd-y"></div>
+                    <div class="win-dot wd-g"></div>
+                    <span class="win-title">Guion #1 · Paisajismo · Talking Head + B-Roll · 91 segundos</span>
+                  </div>
+                  <div class="script-scroll">
+                    <div class="script-row">
+                      <div class="sr-label">HOOK</div>
+                      <div class="sr-txt"><b>"Cuando la gente nos llama, normalmente dice lo mismo: 'Quiero arreglar mi
+                          jardín'"</b> <em>— Primer plano directo a cámara · Texto: ¿Estás pensando en arreglar tu
+                          jardín? · 4 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">CONTEXTO</div>
+                      <div class="sr-txt">"Saben que necesitan un cambio. Pero no saben exactamente cuál." <em>— Primer
+                          plano · 4 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">DESARROLLO</div>
+                      <div class="sr-txt"><b>"Y eso está bien. No hace falta que lo sepas."</b> "No tenés que llegar con
+                        un plano, ni con una lista de plantas, ni con ninguna idea concreta." <em>— B-roll de planos,
+                          plantas y jardines · 8 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">DESARROLLO</div>
+                      <div class="sr-txt">"Lo único que necesitás saber es qué espacio creés que podría ser mejor de lo
+                        que es ahora. Más bello o más útil." <em>— B-roll de espacio muerto sin utilizar · 8 seg</em>
+                      </div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">DESARROLLO</div>
+                      <div class="sr-txt">"De ahí en adelante, eso ya es nuestro trabajo." <em>— Volvemos a primer plano
+                          a cámara · 4 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">PROCESO</div>
+                      <div class="sr-txt">"En Naturves lo primero que hacemos es ver el espacio con vos, y te
+                        preguntamos cómo vivís ahí, cómo te gustaría utilizarlo, qué querés y qué no querés." <em>—
+                          B-roll del equipo trabajando · 9 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">PROCESO</div>
+                      <div class="sr-txt">"Con eso entendemos qué necesita ese espacio. Y a partir de ahí lo diseñamos,
+                        lo ejecutamos y si querés que sigamos con el mantenimiento después, también. <b>Nos encargamos
+                          de absolutamente todo por vos.</b>" <em>— Primer plano caminando en jardín · 12 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">AUTORIDAD</div>
+                      <div class="sr-txt">"Somos un equipo de paisajistas, ingenieros agrónomos y arquitectos unidos
+                        para llevar a cabo tu proyecto de principio a fin." <em>— B-roll del equipo diseñando · 8
+                          seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">AUTORIDAD</div>
+                      <div class="sr-txt">"Trabajamos en Gijón, Siero, Oviedo y abarcamos toda Asturias. Con jardines
+                        pequeños, fincas grandes, terrazas, todo tipo de zonas y tamaños." <em>— B-roll de zonas
+                          conocidas de Asturias · 12 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">AUTORIDAD</div>
+                      <div class="sr-txt"><b>"Diez años trabajando en esta región y más de 1200 proyectos terminados nos
+                          avalan."</b> <em>— Primer plano a cámara · 10 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">CIERRE</div>
+                      <div class="sr-txt">"Así que si tenés un espacio exterior y lo único que sabés es que podría estar
+                        mejor... no necesitás saber nada más." <em>— Primer plano a cámara · 7 seg</em></div>
+                    </div>
+                    <div class="script-row">
+                      <div class="sr-label">CTA</div>
+                      <div class="sr-txt"><b>"Escribí la palabra ESPACIO en los comentarios que nos comunicamos con vos
+                          para ayudarte."</b> <em>— Texto superpuesto: ESCRIBE "ESPACIO" · 5 seg · Razón: genera
+                          interacción + reduce fricción del interesado, automatizable con Manychat</em></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- P3: BAMBARA -->
+        <div class="project r">
+          <div class="project-head" onclick="toggleProject(this)">
+            <div class="p-idx">03</div>
+            <div>
+              <div class="p-title">Bambara</div>
+              <div class="p-sub">Club Nocturno · Gijón, España</div>
+            </div>
+            <div class="p-right">
+              <div class="p-tags"><span class="tag-red">Estrategia</span><span class="tag-muted">Benchmark</span><span
+                  class="tag-muted">TikTok</span></div>
+              <div class="expand-btn">+</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="pb-inner">
+              <div>
+                <p class="pb-desc">Benchmark de competencia y estrategia completa de contenido digital para un bar-club
+                  en Gijón. Analicé 3 competidores directos en todas sus plataformas y encontré territorio libre que
+                  ninguno estaba aprovechando — incluyendo TikTok con cero competencia real y la franja de
+                  tardeo/desayuno completamente disponible.</p>
+              </div>
+              <div class="pb-deliv">
+                <h4>Entregables</h4>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Benchmark completo de Gabbana y Bulevar: métricas, frecuencia, tono, formatos y debilidades</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>6 oportunidades de diferenciación identificadas y priorizadas</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>7 formatos de contenido ganadores con referencias de cuentas del sector en España</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Estrategia de activación en TikTok donde la competencia prácticamente no existe</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Ideas de UGC, influencers y diferenciación por franja horaria (tardeo y desayuno)</p>
+                </div>
+              </div>
+              <div class="work-preview">
+                <h4>Análisis completo — Datos reales del proyecto</h4>
+                <!-- TABS -->
+                <div class="strat-tabs">
+                  <button class="strat-tab active" onclick="switchTab(this,'tab-bench')">Benchmark</button>
+                  <button class="strat-tab" onclick="switchTab(this,'tab-opps')">Oportunidades</button>
+                  <button class="strat-tab" onclick="switchTab(this,'tab-formatos')">Formatos Ganadores</button>
+                </div>
+                <div class="strat-panel active" id="tab-bench">
+                  <div class="bench-grid">
+                    <div class="bench-card">
+                      <h5>Bambara</h5>
+                      <div class="bm-row"><span class="bm-k">IG Seguidores</span><span class="bm-v">5.333</span></div>
+                      <div class="bm-row"><span class="bm-k">Facebook</span><span class="bm-v">8.9k</span></div>
+                      <div class="bm-row"><span class="bm-k">TikTok</span><span class="bm-v">Sin presencia</span></div>
+                      <div class="bm-row"><span class="bm-k">Frec. publicación</span><span class="bm-v">Media</span>
+                      </div>
+                      <div class="bm-row"><span class="bm-k">Contenido video</span><span class="bm-v">Bajo</span></div>
+                    </div>
+                    <div class="bench-card">
+                      <h5>Gabbana</h5>
+                      <div class="bm-row"><span class="bm-k">IG Seguidores</span><span class="bm-v">4.982</span></div>
+                      <div class="bm-row"><span class="bm-k">Facebook</span><span class="bm-v">174</span></div>
+                      <div class="bm-row"><span class="bm-k">TikTok</span><span class="bm-v">98 seg. (nueva)</span>
+                      </div>
+                      <div class="bm-row"><span class="bm-k">Frec. publicación</span><span class="bm-v">7-10/mes</span>
+                      </div>
+                      <div class="bm-row"><span class="bm-k">Contenido video</span><span class="bm-v">Sí, pero
+                          débil</span></div>
+                      <p class="bench-weak">Hooks débiles · Sin CTAs claros · Guiones que parecen escritos con IA ·
+                        Contenido sin pilares definidos</p>
+                    </div>
+                    <div class="bench-card">
+                      <h5>Bulevar</h5>
+                      <div class="bm-row"><span class="bm-k">IG Seguidores</span><span class="bm-v">5.441</span></div>
+                      <div class="bm-row"><span class="bm-k">Facebook</span><span class="bm-v">3.3k</span></div>
+                      <div class="bm-row"><span class="bm-k">TikTok</span><span class="bm-v">Inactivo</span></div>
+                      <div class="bm-row"><span class="bm-k">Frec. publicación</span><span class="bm-v">1-2/mes</span>
+                      </div>
+                      <div class="bm-row"><span class="bm-k">Contenido video</span><span class="bm-v">Casi nulo</span>
+                      </div>
+                      <p class="bench-weak">Sin personalidad de marca · Sin video · Sin tono definido · Baja interacción
+                        generalizada</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="strat-panel" id="tab-opps">
+                  <div class="opp-grid">
+                    <div class="opp-card">
+                      <div class="opp-n">01</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Definir pilares y formatos</strong> —
+                        Diferenciarse y crear un sistema de contenido que sea sostenible mes a mes</p>
+                    </div>
+                    <div class="opp-card">
+                      <div class="opp-n">02</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Estructurar guiones</strong> — Captar atención
+                        real, retener e incentivar interacción con CTAs concretos</p>
+                    </div>
+                    <div class="opp-card">
+                      <div class="opp-n">03</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Aumentar frecuencia</strong> — Más presencia =
+                        más alcance = más potenciales clientes que conocen el lugar</p>
+                    </div>
+                    <div class="opp-card">
+                      <div class="opp-n">04</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Activar TikTok</strong> — Mayor alcance orgánico,
+                        aparecer en búsquedas por ubicación. La competencia no está ahí.</p>
+                    </div>
+                    <div class="opp-card">
+                      <div class="opp-n">05</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Comunidad & UGC</strong> — Repostear clientes,
+                        trabajar con influencers, generar contenido orgánico real</p>
+                    </div>
+                    <div class="opp-card">
+                      <div class="opp-n">06</div>
+                      <p><strong style="color:var(--cream);opacity:.9">Franja tardeo/desayuno</strong> — Ningún
+                        competidor comunica esa franja. Territorio completamente libre.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="strat-panel" id="tab-formatos">
+                  <div
+                    style="background:var(--blk2);border:1px solid var(--g1);padding:24px 20px;display:flex;flex-direction:column;gap:14px">
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">01</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">UGC — Creadores
+                          viviendo la noche</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Videos reales de
+                          clientes dando reviews, recomendando el lugar. Máxima autenticidad y prueba social.</p>
+                      </div>
+                    </div>
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">02</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Talking Head
+                          Informativos</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">La cara de la marca,
+                          influencers o UGC presentando promociones, eventos y fechas especiales. Directo y claro.</p>
+                      </div>
+                    </div>
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">03</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Fake POV — Lo que
+                          te espera</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Mucho alcance
+                          orgánico. Formato que genera deseo y anticipación antes de visitar el lugar.</p>
+                      </div>
+                    </div>
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">04</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Recaps de la
+                          noche</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Mejores momentos
+                          condensados. Conectan con quienes estuvieron y generan deseo en quienes no.</p>
+                      </div>
+                    </div>
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">05</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Ping Pong con
+                          invitados</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Preguntas rápidas a
+                          DJs invitados, influencers o el público. Altísima interacción y formato muy compartible.</p>
+                      </div>
+                    </div>
+                    <div
+                      style="display:flex;gap:12px;align-items:flex-start;padding-bottom:14px;border-bottom:1px solid var(--g1)">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">06</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Feedbacks &
+                          Reviews en video</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Prueba social en
+                          formato video. Más poderoso que cualquier opinión escrita en Google.</p>
+                      </div>
+                    </div>
+                    <div style="display:flex;gap:12px;align-items:flex-start">
+                      <span
+                        style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--red);opacity:.3;line-height:.9;flex-shrink:0">07</span>
+                      <div>
+                        <p style="font-size:14px;font-weight:600;color:var(--cream);margin-bottom:4px">Beneficios
+                          presentados al revés</p>
+                        <p style="font-size:13px;color:var(--cream2);opacity:.55;line-height:1.55">Técnica de presentar
+                          ventajas desde un ángulo negativo/inesperado. Genera curiosidad y alto CTR.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- P4: LA RUMBA / VIDEOS EDITADOS -->
+        <div class="project r">
+          <div class="project-head" onclick="toggleProject(this)">
+            <div class="p-idx">04</div>
+            <div>
+              <div class="p-title">La Rumba — Videos Terminados</div>
+              <div class="p-sub">Short-Form Editing · Instagram Reels · 17k+ views en algunos videos</div>
+            </div>
+            <div class="p-right">
+              <div class="p-tags"><span class="tag-red">Edición</span><span class="tag-muted">Short-Form</span><span
+                  class="tag-muted">Reels</span></div>
+              <div class="expand-btn">+</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="pb-inner">
+              <div>
+                <p class="pb-desc">Videos terminados para La Rumba — una marca de gastronomía/coctelería. Estos son
+                  ejemplos de edición short-form para Instagram Reels. Algunos de estos videos superaron ampliamente la
+                  media de visitas del perfil, llegando a más de 17.000 views.</p>
+              </div>
+              <div class="pb-deliv">
+                <h4>Lo que incluye la edición</h4>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Corte y ritmo visual optimizado para retención en los primeros 3 segundos</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Subtítulos dinámicos integrados al estilo visual del perfil</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Color grade y consistencia estética con la marca</p>
+                </div>
+                <div class="del-row">
+                  <div class="del-dot"></div>
+                  <p>Formato vertical 9:16 optimizado para Reels e Instagram</p>
+                </div>
+              </div>
+              <div class="work-preview">
+                <h4>Videos terminados — Ejemplos reales del trabajo</h4>
+                <div class="vvid-grid">
+                  <div class="vvid-item">
+                    <div class="doc-win">
+                      <div class="doc-win-bar">
+                        <div class="win-dot wd-r"></div>
+                        <div class="win-dot wd-y"></div>
+                        <div class="win-dot wd-g"></div><span class="win-title">La Rumba · Bartender · 17k+ views</span>
+                      </div>
+                      <video controls preload="metadata" src="./assets/video/La_Rumba.mp4"></video>
+                    </div>
+                  </div>
+                  <div class="vvid-item">
+                    <div class="doc-win">
+                      <div class="doc-win-bar">
+                        <div class="win-dot wd-r"></div>
+                        <div class="win-dot wd-y"></div>
+                        <div class="win-dot wd-g"></div><span class="win-title">Sakura Sushi · Short-Form Edit</span>
+                      </div>
+                      <video controls preload="metadata" src="./assets/video/Sakura_Sushi.mp4"></video>
+                    </div>
+                  </div>
+                </div>
+                <div class="vid-note" style="margin-top:8px">
+                  <p>Los videos son <b>formato vertical 9:16</b> — se ven mejor en mobile o achicando el navegador.
+                    Estos son los archivos finales entregados al cliente.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios">
+      <div class="c">
+        <div class="sh r">
+          <span class="label">05 — Testimonios</span>
+          <h2>Testimonios</h2>
+        </div>
+      </div>
+      <div class="test-mq-wrap">
+        <div class="test-mq-track">
+          <!-- Bloque 1 -->
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"De verdad es todo lo que estaba buscando. Te agradezco infinitamente. ¡Me resolviste
+              la vida!"</p>
+            <div class="test-author">
+              <span class="test-name">Juan Gaurdy</span>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"Ahora entiendo por qué tenía que subir contenido. No pensé que era posible vender por
+              historias."</p>
+            <div class="test-author">
+              <span class="test-name">Diego Aquino</span>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"Este contenido suena totalmente a mí, es como si lo hubiera escrito yo."</p>
+            <div class="test-author">
+              <span class="test-name">Camila Donato</span>
+            </div>
+          </div>
+          <!-- Bloque 2 — copia exacta para loop continuo -->
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"De verdad es todo lo que estaba buscando. Te agradezco infinitamente. ¡Me resolviste
+              la vida!"</p>
+            <div class="test-author">
+              <span class="test-name">Juan Gaurdy</span>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"Ahora entiendo por qué tenía que subir contenido. No pensé que era posible vender por
+              historias."</p>
+            <div class="test-author">
+              <span class="test-name">Diego Aquino</span>
+            </div>
+          </div>
+          <div class="test-card">
+            <div class="test-quote-icon">✦</div>
+            <p class="test-text">"Este contenido suena totalmente a mí, es como si lo hubiera escrito yo."</p>
+            <div class="test-author">
+              <span class="test-name">Camila Donato</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     AGENDAR
+============================ -->
+    <section id="agendar" class="book-section">
+      <div class="c">
+        <div class="sh r">
+          <span class="label">06 — Charlemos</span>
+          <h2>30 MINUTOS PARA DESBLOQUEAR TU MARCA</h2>
+          <p style="text-align: justify;">
+            No es una llamada de ventas. Es una conversación sobre tu negocio y lo que estas buscando. Si veo que puedo
+            ayudarte a escalar, te cuento cómo. Si no, te vas con una hoja de ruta clara sobre qué deberías estar
+            haciendo.
+          </p>
+        </div>
+        <div class="book-grid">
+          <div class="r">
+            <div class="book-items">
+              <div class="book-item">
+                <div class="book-icon"><i class="fa-regular fa-clock"></i></div>
+                <div class="book-text">
+                  <h4>30 minutos por Zoom o Google Meet</h4>
+                  <p>
+                    Sin intención de venta. Una conversación real sobre tu negocio y qué necesitás.
+                  </p>
+                </div>
+              </div>
+              <div class="book-item">
+                <div class="book-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="book-text">
+                  <h4>Te doy valor desde el primer minuto</h4>
+                  <p>
+                    Aunque no avancemos, salís con claridad sobre tu situación de contenido y qué podrías mejorar.
+                  </p>
+                </div>
+              </div>
+              <div class="book-item">
+                <div class="book-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="book-text">
+                  <h4>Respondo en menos de 24 horas</h4>
+                  <p>
+                    Nada de esperar días. Confirmo horario por WhatsApp o email rápido.
+                  </p>
+                </div>
+              </div>
+              <div class="book-item">
+                <div class="book-icon"><i class="fa-regular fa-comment"></i></div>
+                <div class="book-text">
+                  <h4>Preferís WhatsApp o email</h4>
+                  <p>
+                    También funciona. Muchos clientes prefieren arrancar con un mensaje antes de la llamada.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="r d1">
+            <div class="book-card">
+              <div class="book-card-head">
+                <h4>Llamada de Diagnóstico</h4>
+                <p>Ghostwriting & Estrategia de Contenido · Completamente gratis</p>
+              </div>
+              <div class="book-card-body">
+                <div class="book-options">
+                  <a href="https://wa.me/541136189791?text=Hola%20Juanma%2C%20quiero%20agendar%20una%20llamada%20de%20diagn%C3%B3stico.%20Me%20llamo%20[tu%20nombre]%20y%20trabajo%20en%20[tu%20rubro]."
+                    target="_blank" class="book-option">
+                    <div class="book-option-icon" style="color: white;"><i class="fa-regular fa-comment-dots"></i></div>
+                    <div class="book-option-text">
+                      <h5>Escribirme por WhatsApp</h5>
+                      <p>
+                        Clic directo — Solo decime tu nombre, rubro y cuando podes
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://mail.google.com/mail/?view=cm&to=jmreynolds.contact@gmail.com&subject=Llamada%20de%20diagnóstico&body=Hola%20Juanma,%20quiero%20agendar%20una%20llamada."
+                    class="book-option" target="_blank">
+                    <div class="book-option-icon" style="color: white;"><i class="fa-regular fa-envelope"></i></div>
+                    <div class="book-option-text">
+                      <h5>Enviarme un email</h5>
+                      <p>
+                        jmreynolds.contact@gmail.com — Misma metodología
+                      </p>
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/juanma-reynolds" target="_blank" class="book-option">
+                    <div class="book-option-icon" style="color: white;"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="book-option-text">
+                      <h5>Conectar en LinkedIn</h5>
+                      <p>
+                        Si ya me conocés de ahí, podemos arrancar por mensaje directo
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================
+     CTA FINAL
+============================ -->
+    <section class="cta-final" id="contacto">
+      <div class="cta-glow"></div>
+      <div class="cta-big-word">HABLEMOS</div>
+      <div class="cta-content r">
+        <span class="label">07 — Siguiente paso</span>
+        <h2 class="cta-title r d1">¿Tiene sentido<br><span>trabajar juntos?</span></h2>
+        <p class="cta-sub cg r d2">Si sos coach, consultor, fundador o tenés una marca que necesita contenido para
+          vender — escribime. La primera conversación no te cuesta nada.</p>
+        <div class="cta-btns r d3">
+          <a href="https://wa.me/541136189791" target="_blank" class="btn btn-red">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+            Escribirme ahora
+          </a>
+          <a href="#agendar" class="btn btn-outline">Agendar llamada gratis</a>
+          <a href="https://www.linkedin.com/in/juanma-reynolds" target="_blank" class="btn btn-outline">LinkedIn</a>
+        </div>
+        <p class="cta-email r d4">jmreynolds.contact@gmail.com</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot-inner">
+        <a href="#"
+          style="font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:.08em;color:var(--white);text-decoration:none">Juanma
+          <b style="color:var(--red)">Reynolds</b></a>
+        <div class="foot-links">
+          <a href="#sobre-mi">Sobre Mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#proceso">Mi Proceso</a>
+          <a href="#agendar">Agendar</a>
+          <a href="https://www.linkedin.com/in/juanma-reynolds" target="_blank">LinkedIn</a>
+        </div>
+        <span class="foot-copy">Buenos Aires · 2026</span>
+      </div>
+    </footer>
+
+  </div><!-- /wrap -->
+
+  <script src="./assets/scripts/index.js"></script>
+</body>
+
+</html>
